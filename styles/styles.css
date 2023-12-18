@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Noto+Sans:wght@500&family=Roboto+Condensed&display=swap');
+
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+header {
+    background-color: #2d2933;
+    color: white;
+    padding:10px 20px;
+}
+header a {
+    color: white !important;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+nav img {
+    max-width: 50px;
+}
+img {
+    vertical-align: middle;
+}
+.mainBox {
+    background: linear-gradient(0.25turn, #000000, #280056, #000000);
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 20px;
+    align-items: center;
+}
+.leftBox {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    color: white;
+}
+.downloadBtn {
+    background-color: orange;
+    padding:10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: .4s;
+    cursor: pointer;
+}
+.downloadBtn:hover {
+    border: 2px solid rgb(255, 157, 0);
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+.leftBox ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 10px;
+}
+.leftBox ul li {
+    color: white;
+}
+.leftBox ul li a {
+    color: rgb(255, 145, 0);
+    padding: 0 0 0 20px;
+}
+
+.experience {
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.expSect {
+    background-color: #5a565f;
+    color: white;
+    padding: 20px;
+}
+.expBox {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: right;
+}
+.expBoxLeft {
+    flex: 2;
+}
+.expBoxRight {
+    flex: 2;
+}
+.expBoxLeft p {
+    color: #b8b8b8;
+}
+.expBoxRight * {
+    margin-bottom: 20px;
+    text-align: left;
+}
+.expBoxRight h2 {
+    color: orange;
+}
+.differentText {
+    color: rgba(255, 166, 0, 0.546);
+}
+
+
+.portfolio {
+    background-color: #2d2933;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.portfolio p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.portfolioBox {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    padding: 20px 50px;
+    margin: 0 auto;
+}
+.imgbox  img{
+    width: 250px;
+    height:250px;
+    object-fit: cover;
+}
+.imgbox {
+    border: 2px solid white;
+    transition: .4s;
+    cursor: pointer;
+}
+.imgbox:hover {
+    transform: scale(1.1);
+}
+.imgbox p {
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+
+
+.aboutCont {
+    background-color: #5a565f;
+    color: white;
+    padding: 20px;
+    display: flex;
+}
+.about {
+    display: flex;
+    justify-content: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.about .downloadBtn {
+    max-width: max-content;
+}
+.about > * {
+    flex: 1;
+}
+.circle {
+    background-color: orange;
+    padding: 10px;
+    margin-top: 16px;
+    transition: 1s;
+    width: 0;
+}
+.circle1 {
+    width: 97%;
+}
+.circle2 {
+    width: 82%;
+}
+.circle3 {
+    width: 100%;
+}
+.circle4 {
+    width: 77%;
+}
